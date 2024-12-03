@@ -1,0 +1,123 @@
+    
+
+.thehub_banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: -1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    scroll-behavior: none;
+    font-family: "Poppins", serif;
+
+
+}
+.thehub_banner .slide{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -999;
+    
+}
+.thehub_banner .container{
+    width: 100%;
+    height: 100vh;
+}
+.thehub_banner .container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .8;
+}
+.thehub_banner .desc{
+    height: auto;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 50%;
+}
+
+.desc p{
+    text-shadow: 2px 2px black;
+    text-align: center;
+    color: orangered;
+    font-weight: 900;   
+    
+    font-size: 5rem;
+    text-transform: capitalize;
+  
+}
+.btn{
+    position: absolute;
+    top: 50rem;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background: none;
+    gap: 2rem;
+}
+.btn i{
+    background: none;
+    text-shadow: 1px 1px black;
+    z-index: 10;
+    font-size: 2rem;
+    color: orangered;
+    border: .3rem solid orangered;
+    padding: 0.9rem;
+    border-radius: 40%;
+}
+.btn i:hover{
+    border: .2rem solid blueviolet;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+@media(min-width:1200px){
+    html{
+        font-size: 80%;
+    }
+}
+@media(max-width:990px){
+    html{
+        font-size: 70%;
+    }
+}
+@media(max-width:790px){
+    html{
+        font-size: 70%;
+    }
+    .desc p{
+        text-align: center;
+        color: orangered;
+        font-size: 2rem;
+        text-transform: capitalize;
+      
+    }
+
+}
+@media(max-width:490px){
+    html{
+        font-size: 60%;
+    }
+    .desc p{
+        text-align: center;
+        color: orangered;
+        font-size: 2rem;
+        text-transform: capitalize;
+      
+    }
+
+}

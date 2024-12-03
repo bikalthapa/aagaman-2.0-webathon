@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #333333;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.routine {
+  width: 90%;
+  height: 90vh;
+  position: relative;
+  margin: auto;
+  /* top: 6.5rem; */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--light);
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+}
+.routine .top {
+  align-self: flex-end;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.routine .checklist {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 15px;
+}
+.checklist .item {
+  width: 90%;
+  padding: 10px;
+  font-weight: 600;
+  margin: auto;
+  background-color: #d9d3d3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+.routine .btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-weight: 500;
+  background: var(--dark);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  box-shadow: inset 2px 2px 2px 0px var(--dark);
+  outline: none;
+  align-self: flex-end;
+}
+
+.btn:hover {
+  background: var(--secondary);
+}
+
+input {
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+}
+label {
+    width: 100%;
+}

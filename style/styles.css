@@ -1,0 +1,325 @@
+
+:root{
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #333333;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* this is the css of hero section */
+.hero {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+   
+    z-index: 0;
+}
+.hero .main-interface{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: contain;
+    position: relative;
+    background-image: url("../public/img/background1.jpeg");
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.hero .main-interface .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    font-weight: bold;
+}
+.hero .main-interface .banner .writingAnimation{
+   font-size: 50px;
+   font-weight: bold;
+   color: orangered;
+   height: 60px;
+   line-height: 1;
+}
+.hero .main-interface .banner .text-badIsOut{
+    font-size: 30px;
+    color: white;
+}
+.hero .main-interface .banner button{
+
+  color: orangered;
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 1.5rem 4rem 1.5rem 4rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+.hero .main-interface .banner Button:hover{
+    background-color:orangered ;
+    color: white;
+}
+.hero .main-interface .banner .membership-text{
+   color: white;
+   font-size: 20px;
+}
+.hero .Join-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(45deg,#e11a43,#e11a43,#f38027,#fcb913);
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: white;
+    padding: 1rem;
+}
+.hero .Join-box .closest p{
+  font-size: 15px;
+}
+.hero .Join-box .local-crunch p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.hero .Join-box .local-crunch p span{
+    font: 100px;
+}
+
+.hero .Join-box .buttons button{
+    padding: 1.5rem;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    flex-direction: row;
+    gap: 10px;
+    color: orangered;
+    cursor: pointer;
+   
+}
+.hero .Join-box .buttons button:hover{
+    background-color: white;
+}
+
+.hero .crunshim-1{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.hero .crunshim-1 .text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center
+}
+.hero .crunshim-1 .text .crunshim-text p{
+   font-size: 15px;
+}
+.hero .crunshim-1 .text .embrace p{
+    font-size: 25px;
+    font-weight: bold;
+    color: #17186a;
+}
+.hero .crunshim-1 .contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    
+
+}
+.hero .crunshim-1 .contents .positivity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.089);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.hero .crunshim-1 .contents .positivity .heading
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #17186a;
+}
+.hero .crunshim-1 .contents .positivity .text{
+    font-size: 15px;
+}
+
+.hero .crunshim-2{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+ 
+}
+.hero .crunshim-2 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+}
+.hero .crunshim-2 .text .crunchism-2 p{
+font-size: 15px;
+}
+.hero .crunshim-2 .everyone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero .crunshim-2 .everyone h5{
+  font-size: 25px;
+  font-weight: bold;
+}
+.hero .crunshim-2 .items .card
+{   
+    border-radius: 8px;
+    height: 30rem;
+    width: 25rem;
+    background-image: url("../public/img/gym.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    
+}
+.hero .crunshim-2 .items .card .card-body{
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+.hero .crunshim-2 .items .card .card-body .card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.hero .crunshim-2 .items .card .card-body a{
+    background-color: orangered;
+    border: none;
+    padding: 1rem;
+
+}
+ /* Section for writing animation */
+.writingAnimation{
+    font-size:20px;
+    position:relative;
+}
+@keyframes blinkingAnimation{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+.writingAnimation::after{
+    content: " ";
+    position:absolute;
+    height:40px;
+    width:2px;
+    background-color:black;
+    animation-name:blinkingAnimation;
+    animation-duration:0.5s;
+    animation-iteration-count: infinite;
+}
+
+.routine .btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: var(--dark);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    box-shadow: inset 2px 2px 2px 0px var(--dark);
+    outline: none;
+    align-self: flex-end;
+  }
+  
+  .btn:hover {
+    background: var(--secondary);
+  }
+
+  .container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,200px) ;
+    width: 90%;
+    margin: auto;
+    gap:2rem 20rem;
+  }
+  .btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: var(--dark);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    box-shadow: inset 2px 2px 2px 0px var(--dark);
+    outline: none;
+    align-self: flex-end;
+    margin-top: 2rem;
+  }
+
+  .card-body{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .btn:hover {
+    background: var(--secondary);
+  }
+.items{
+    margin: 20px;
+}
+p{
+    margin-left:4rem ;
+}
+a{
+    text-decoration: none;
+    margin-bottom: 10px;
+    justify-self: flex-start;
+}

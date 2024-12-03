@@ -1,0 +1,31 @@
+
+
+const slide= document.querySelectorAll('.slide');
+var count=0;
+
+slide.forEach((slides,index)=>{
+    slides.style.left = `${index * 100 }%`
+})
+function gorev(){
+    alert();
+    if(count!=0){
+       
+    count--
+    slideimg()
+    }
+}
+function gonext(){
+    alert();
+    if(slide.length-1){
+     
+    count++
+    slideimg()
+    }
+}
+const slideimg =()=>{
+    slide.forEach(
+        (slide) =>{
+            slide.style.transform =`translateX(-${count *100}%)`;
+        }
+    )
+}

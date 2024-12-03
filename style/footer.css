@@ -1,0 +1,61 @@
+
+:root{
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #333333;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+.social-media{
+    width: 100%;
+    height: 3rem;
+    /* background-color: red; */
+}
+i{
+    font-size: 2rem;
+    color: black;
+}
+
+footer{
+    width: 100%;
+    background-color: var(--light);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 999;
+    padding: 10px;
+    /* margin: auto; */
+    display: flex;
+    /* background-color: var(--secondary); */
+    align-items: center;
+    margin-top: 2%;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-evenly;
+}
+footer .social-media{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social-media .item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}

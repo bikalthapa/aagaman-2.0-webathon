@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="../style/Nav.css">
+    <link rel="stylesheet" href="../style/signup.css">
+    <link rel="stylesheet" href="../style/footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <i class="fas fa-bars" id="resbtn"></i>
+      <a href="../index.html">Zen<span>fit</span></a>
+    </div>
+    <nav class="navbar">
+
+      <a href="../index.html">Home</a>
+      <a href="./location.html">Location</a>
+     
+      <a href="./Routine.html">Routines</a>
+      <a href="./about.html">About Us</a>
+    </nav>
+
+    <div class="profile">
+        <a href="./login.html"><i class="fa-solid fa-user"></i></a>
+    </div>
+  </header>
+
+    <div class="signup_form_container">
+      <div class="card mb-3 signup_form">
+        <div class="row g-0">
+          <div class="col-md-4 d-flex justify-content-center align-items-center p-2">
+            <img src="../public/img/gym.jpg" class="form_img img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+                <form class="my-5" id="signup_form">
+                  <p class="title">Login to ZenFit</p>
+                    <div class="mb-3">
+                      <div id="emailHelp" class="text-dark">Email</div>
+                      <input type="email" class="form-control border-warning" id="email" aria-describedby="emailHelp">
+                    </div><br/>
+                    <div class="mb-3">
+                      <div id="passwordHelp" class="form-text">Password</div>
+                      <input type="password" class="form-control border-warning" id="password" aria-describedby="passwordHelp">
+                    </div>
+                    <div class="btn_container">
+                      <button type="submit" class="signup_btn btn text-bold">Login</button>
+                      <br/>
+                      <p> Don't have an Account ?</p>
+                      <a href="signup.html" class="signup_btn btn text-bold text-center">Sign Up</a>
+                    </div>
+                </form>          
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <br><br>
+      <footer class="footer">
+        &copy; 2024 all copyright reserved
+        <div class="social-media">
+            <div class="item">
+                <i class="fa-brands fa-instagram"></i>
+                <p>Instagram</p>
+            </div>
+            <div class="item">
+                <i class="fa-brands fa-instagram"></i>
+                <p>Facebook</p>
+            </div>
+            <div class="item">
+                <i class="fa-brands fa-instagram"></i>
+                <p>Tiktok</p>
+            </div>
+        </div>
+    </footer>
+      <script src="../js/signup.js"></script>
+</body>
+ </html>
